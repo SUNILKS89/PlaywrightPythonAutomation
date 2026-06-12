@@ -30,6 +30,7 @@ pipeline {
                 bash -c "
                 source venv/bin/activate
                 pytest PlaywrightPython/test_web_api.py -v -s
+                pytest PlaywrightPython/test_mock_response.py -v -s
                 "
                 '''
             }
