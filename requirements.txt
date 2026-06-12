@@ -15,3 +15,5 @@ urllib3==2.6.3
 mysql-connector-python
 pytest-bdd
 behave
+playwright
+pytest-playwright
