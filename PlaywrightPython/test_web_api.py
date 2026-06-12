@@ -3,7 +3,7 @@ import time
 from Utils.apiBase import *
 
 def test_web_api(playwright:Playwright):
-    browser = playwright.chromium.launch(headless=False)
+    browser = playwright.chromium.launch(headless=True)
     page = browser.new_page()
     page.goto("https://rahulshettyacademy.com/client")
 
